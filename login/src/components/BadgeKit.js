@@ -6,7 +6,7 @@ class BadgeKit extends React.Component {
     return (
         <div className="Badge">
           <div className="Badge_offer">
-            <h3> Los últimos estrenos</h3>
+           <div className="Badge_offer_text"> <h3> No te pierdas nuestros sorteos!</h3> </div>
           </div>
         </div>
     
