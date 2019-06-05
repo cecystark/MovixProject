@@ -1,0 +1,76 @@
+.Badge {
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+  height: 280px;
+  margin-top: 30px;
+}
+
+.Badge_news{
+  background-color: grey;
+  height: 400px;
+}
+
+.Badge_discounts{
+ 
+  height: 100%;
+  background-image: url('../../images/oferta.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.Badge_offer{
+  height: 100%;
+  background-image: url('../../images/oferta2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Badge__title{
+  /* padding-left: 10%; */
+  padding-top: 74px;
+  padding-left: 203px; 
+  color: black;
+}
+
+.Badge__header {
+  padding: 0.5rem 0;
+  height: 150px;
+  
+  display: flex; 
+  justify-content: center;
+  border-radius: 8px 8px 8px 8px;
+
+  background-image: url('../../images/surprise.JPG');
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  background-position: center;
+}
+
+.Badge__section-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.Badge__section-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  background: #F4F4F7;
+}
+
+.Badge__footer {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:violet;
+  font-weight: bold;
+  font-style: italic;
+}
