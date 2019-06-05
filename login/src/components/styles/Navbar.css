@@ -1,7 +1,34 @@
 .Navbar {
   width: 100%;
-  padding: 0.5rem 0;
-  background-color: #1C3643;
+  /* padding: 0.5rem 0; */
+  color: rgb(238, 218, 218);
+  /* background: linear-gradient(to right, #cc00ff, #ff0066, #00ff00); */
+ 
+  height: 110px;
+  display: inline;
+
+}
+
+.NavBar_back{
+  background: url('../../images/movixTransp.png'), linear-gradient(to right, #cc00ff, #ff0066, #00ff00);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  background-position: center left;
+
+}
+
+h3{
+  position: relative;
+  /* padding: 50%; */
+}
+
+.NavBar_slogan{
+  background-position: center;
+}
+h3{
+  padding-top: 50px;
 }
 
 .Navbar__brand {

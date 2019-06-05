@@ -4,8 +4,11 @@ import './styles/Navbar.css';
 class Navbar extends React.Component {
   render() {
     return (
-      <div className="font-weight-light">
-        <h1> Navbar</h1> 
+      <div className="Navbar">
+        <div className="NavBar_back"></div>
+        <div className="NavBar_back">
+          <h3>Tu película favorita, ahora en casa.</h3>
+        </div>
       </div>
     );
   }

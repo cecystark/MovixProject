@@ -12,13 +12,11 @@ body {
   background-color: #F4F4F7;
 }
 
-h1 {
+h1,h2,h3 {
   font-family: 'Anton', sans-serif;
 }
 
-h2 {
-  font-family: 'Anton', sans-serif;
-}
+
 
 a.link-unstyled {
   color: inherit;
