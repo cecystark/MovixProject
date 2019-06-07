@@ -4,6 +4,7 @@
   overflow: hidden;
   height: 280px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .Badge_news{
@@ -33,10 +34,13 @@
 }
 
 .Badge__title{
-  /* padding-left: 10%; */
+  padding-bottom: 0;
+  padding-left: 10%;
   padding-top: 74px;
-  padding-left: 203px; 
+  padding-left: 150px;
   color: black;
+  position: absolute;
+  
 }
 
 .Badge__header {

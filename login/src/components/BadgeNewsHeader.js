@@ -6,7 +6,6 @@ class BadgeNewsHeader extends React.Component {
     return (
        
             <div className="Badge__header">
-              <div className="Badge__avatar" ></div>
               <div className="Badge__title">
                 <h1>NOVEDADES</h1>
               </div>

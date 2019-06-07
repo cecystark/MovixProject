@@ -1,48 +1,25 @@
-.Navbar {
-  width: 100%;
-  /* padding: 0.5rem 0; */
+.NavContainer {
   color: rgb(238, 218, 218);
-  /* background: linear-gradient(to right, #cc00ff, #ff0066, #00ff00); */
- 
-  height: 110px;
-  display: inline;
-
-}
-
-.NavBar_back{
-  background: url('../../images/movixTransp.png'), linear-gradient(to right, #cc00ff, #ff0066, #00ff00);
+  background: linear-gradient(to right, #cc00ff, #ff0066, #00ff00);
+  height: auto;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-  background-position: center left;
-
 }
 
-h3{
-  position: relative;
-  /* padding: 50%; */
-}
-
-.NavBar_slogan{
+.NavLogo{
+  height: 110px;
+  background-image: url('../../images/movixTransp.png');
+  background-repeat: no-repeat;
+  background-size: auto;
   background-position: center;
 }
+
+
+.NavSlogan{
+  padding:0;
+  margin: 0;
+  height: 50px;
+ 
+}
 h3{
-  padding-top: 50px;
-}
-
-.Navbar__brand {
-  color: #ffffff;
-
-  display: flex;
-  align-items: center;
-}
-
-.Navbar__brand:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.Navbar__brand-logo {
-  margin-right: 0.5rem;
+ margin: 0%;
 }

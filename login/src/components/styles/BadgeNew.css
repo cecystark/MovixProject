@@ -1,7 +1,6 @@
 .BadgeNew__hero {
     width: 100%;
     padding: 2rem 0;
-    /* padding-top: 5rem; */
     background: url('../../images/stars.svg'), #1B1B25;
     background-repeat: repeat;
     height: 100%;
@@ -9,11 +8,9 @@
   }
 
   .BadgeNew__forms__container{
-    /* background-color: red; */
     background-color: rgba(198, 81, 233, 0.5);
     color:white;
     border-radius: 8px 8px 8px 8px;
-    
   }
  
   .BadgeNew__Forms{
