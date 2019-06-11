@@ -3,7 +3,17 @@
   background: linear-gradient(to right, #cc00ff, #ff0066, #00ff00);
   height: auto;
   background-repeat: no-repeat;
+  width: 100%;
+  padding: 0;
 }
+
+.NavLogoContainer{
+  height: 110px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
 
 .NavLogo{
   height: 110px;
