@@ -24,7 +24,7 @@ overview = `${overview.substr(0, 64)} [...]`;
   <Card.Img variant="top" src={posterUrl} style={{ height: '250px'}}/>
   <Card.Body>
     <Card.Title title={title}>{titleAux}</Card.Title>
-    <Card.Text style={{ height: '100px'}} >{overview}</Card.Text>
+    <Card.Text style={{ height: '70px'}} >{overview}</Card.Text>
     <Button variant="primary">Más info!</Button>
   </Card.Body>
 </Card>);
