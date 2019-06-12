@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './components/NavBar';
-import MovieRow from './components/MovieRow';
 import DemoCarousel from './components/Carousel';
 import MovieCard from './components/MovieCard';
-import GrillaPeliculas from './components/GrillaPeliculas';
-import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-
-
 
 class App extends Component {
   constructor(props) {
@@ -36,19 +30,13 @@ class App extends Component {
         const aux =[]
 
          theMovies.forEach((movie)=>{
-         // const mov= <MovieRow key={movie.id} movie={movie}/>;
-         const mov= <MovieCard key={movie.id} movie={movie}/>;
-          aux.push(mov);
-          
-                    
-          console.log("este es mov");
-          console.log(mov);
 
+          const mov= <MovieCard key={movie.id} movie={movie}/>;
+          aux.push(mov);
+        
           });
 
-        //  const grilla = <GrillaPeliculas  tarjetas={aux} />;
-      this.setState({rows: aux})
-      //this.setState({rows: grilla})  
+          this.setState({rows: aux})
     })
   }
    
