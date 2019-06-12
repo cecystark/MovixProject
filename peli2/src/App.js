@@ -26,7 +26,8 @@ class App extends Component {
       .then((searchResults) => {
 
         const theMovies = searchResults.results; 
-
+        console.log(theMovies);
+        
         const aux =[]
 
          theMovies.forEach((movie)=>{
