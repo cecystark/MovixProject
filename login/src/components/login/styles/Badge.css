@@ -14,7 +14,7 @@
 .Badge_discounts{
  
   height: 100%;
-  background-image: url('../../images/oferta.jpg');
+  background-image: url('../../../images/oferta.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -22,7 +22,7 @@
 
 .Badge_offer{
   height: 100%;
-  background-image: url('../../images/oferta2.png');
+  background-image: url('../../../images/oferta2.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   
@@ -51,7 +51,7 @@
   justify-content: center;
   border-radius: 8px 8px 8px 8px;
 
-  background-image: url('../../images/surprise.JPG');
+  background-image: url('../../../images/surprise.JPG');
   background-repeat: no-repeat;
   background-size: 100% 300px;
   background-position: center;

@@ -1,0 +1,20 @@
+.appBar{
+
+    background-color: black;
+    display: block;
+    color: white;
+}
+
+.searchBar{
+    display: block;
+    font-size: larger;
+    width: 100%;
+    padding-bottom: 8;
+    padding-top: 8;
+    padding-left: 16;
+}
+
+.carousel{
+    height: 300px;
+    width: 200px;
+}

@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../componentsLogin/Navbar';
-import '../componentsLogin/styles/BadgeNew.css';
-import BadgeDiscount from '../componentsLogin/BadgeDiscount';
-import BadgeForm from '../componentsLogin/BadgeForm';
-import BadgeLogin from '../componentsLogin/BadgeLogin';
-import BadgeKit from '../componentsLogin/BadgeKit';
-import BadgeNewsHeader from '../componentsLogin/BadgeNewsHeader';
-import Footer from '../componentsLogin/Footer';
+import Navbar from '../components/login/Navbar';
+import '../components/login/styles/BadgeNew.css';
+import BadgeDiscount from '../components/login/BadgeDiscount';
+import BadgeForm from '../components/login/BadgeForm';
+import BadgeLogin from '../components/login/BadgeLogin';
+import BadgeKit from '../components/login/BadgeKit';
+import BadgeNewsHeader from '../components/login/BadgeNewsHeader';
+import Footer from '../components/login/Footer';
 
 class BadgeNew extends React.Component{
     render(){

@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/Badge.css';
-import '../componentsLogin/styles/Footer.css';
+import './styles/Footer.css';
 
 
 class Footer extends React.Component {
